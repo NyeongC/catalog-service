@@ -1,0 +1,5 @@
+# 도커 데몬 생성 후
+./gradle bootBuildImage
+
+# 이미지 실행
+docker run --rm --name catalog-service -p 8080:8080 catalog-service:0.0.1-SNAPSHOT
