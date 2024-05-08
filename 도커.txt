@@ -5,3 +5,6 @@
 docker run --rm --name catalog-service -p 8080:8080 catalog-service:0.0.1-SNAPSHOT
 
 # 컨테이너 만들때 용량때문에 중간에 안되면 다시 삭제 후 재진행 
+
+#WSL2 Linux 커널 다운 후 powershell
+wsl --set-default-version 2
