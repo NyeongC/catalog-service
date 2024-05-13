@@ -8,3 +8,19 @@ docker run --rm --name catalog-service -p 8080:8080 catalog-service:0.0.1-SNAPSH
 
 #WSL2 Linux 커널 다운 후 powershell
 wsl --set-default-version 2
+
+# 미니큐브
+https://minikube.sigs.k8s.io/docs/start/
+
+minikube version
+
+minikube start
+
+minikube stop
+
+# kubectl
+https://kubernetes.io/docs/tasks/tools/install-kubectl-windows/
+
+kubectl get nodes
+
+
